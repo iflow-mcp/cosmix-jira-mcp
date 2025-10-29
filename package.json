@@ -1,8 +1,11 @@
 {
-  "name": "jira-mcp",
+  "name": "@iflow-mcp/jira-mcp",
   "version": "1.0.0",
   "description": "JIRA MCP Server",
   "type": "module",
+  "bin": {
+    "jira-mcp": "build/index.js"
+  },
   "scripts": {
     "build": "vite build && chmod +x build/index.js",
     "start": "bun build/index.js",
