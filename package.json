@@ -1,6 +1,6 @@
 {
   "name": "@iflow-mcp/jira-mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JIRA MCP Server",
   "type": "module",
   "bin": {
